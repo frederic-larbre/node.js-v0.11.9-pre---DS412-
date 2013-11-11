@@ -132,9 +132,9 @@ Alter the following three source files according to the `diff` files. I did not 
 #### Set `gcc` __POSIX__ and general compatibility flags
 You will need to build with the following flags:
 
-* ___XOPEN_SOURCE=700__ for __POSIX__ compatibility
-* ___GNU_SOURCE__ since it is not set on the complete build process and required on Synology
-* __ULONG_LONG_MAX=18446744073709551615ULL__ as a consequence of the __POSIX__ setting  
+* __\_XOPEN\_SOURCE=700__ for __POSIX__ compatibility
+* __\_GNU\_SOURCE__ since it is not set on the complete build process and required on Synology
+* __ULONG\_LONG\_MAX=18446744073709551615ULL__ as a consequence of the __POSIX__ setting  
  
 Set the __CFLAGS__ environment variable:
 

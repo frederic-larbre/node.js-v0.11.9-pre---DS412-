@@ -1,6 +1,6 @@
 # How to install node.js v0.11.9-pre on a Synology DS412+
 
-Installing latest node.js on a Synology DS412+ is really a pain in the ass. I have spent almost a day doing this and that is what is motivating me for sharing this.
+Installing latest node.js on a Synology DS412+ is really a pain in the ass. I have spent almost a day doing this and that is my motivation for sharing this.
 
 All along this post I am assuming installing node.js on a __Intel Atom x86 64bits__ hardware. 
 
